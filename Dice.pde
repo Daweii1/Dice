@@ -28,9 +28,9 @@
   }
   void mousePressed()
   {
-      
-      redraw();
       rolls +=1;
+      redraw();
+      
           total = 0;
   }
   class Die //models one single dice cube
